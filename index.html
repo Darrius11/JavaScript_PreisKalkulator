@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Preis Kalkulator</title>
+</head>
+<body>
+
+    <h2>Preis Kalkulator</h2>
+
+    <div class="container">
+
+    <form action="" class="form">
+        <label for="einstandpreis">Einstandpreis (Euro)</label>
+        <input type="text" name="einstandpreis" id="einstandpreis" value="">
+
+        <br>
+        <br>
+
+        <label for="gemeinkosten">Gemeinkosten (%)</label>
+        <input type="text" name="gemeinkosten" id="gemeinkosten" value="30">
+
+        <br>
+
+        <label for="gewinn">Gewinn (%)</label>
+        <input type="text" name="gewinn" id="gewinn" value="10">
+
+        <br>
+        <br>
+
+        <label for="kundenrabatt">Kundenrabatt (%)</label>
+        <input type="text" name="kundenrabatt" id="kundenrabatt" value="5">
+
+        <br>
+
+        <label for="skonto">Skonto (%)</label>
+        <input type="text" name="skonto" id="skonto" value="2">
+       
+        <br>
+        <br>
+
+        <!-- <label for="ust">Umsatzsteuer</label><br>
+        <input type="text" id="umsatzsteuer" name="umsatzsteuer" value="20">
+
+        <br>
+        <br> -->
+
+        <label for="verkauspreis">Verkaufspreis </label>
+        <input type="text" name="verkauspreis" id="verkauspreis" value="">   
+
+        <br>
+        
+        <input type="button" onClick="calculation()" value="Calculator"> 
+
+    </form>
+    
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
